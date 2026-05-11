@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nam Mũ Đen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 3D Particle Network Background -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- Cyber Grid Overlay -->
+    <div class="grid-overlay"></div>
+    
+    <!-- Scan Lines Effect -->
+    <div class="scan-lines"></div>
+
+    <!-- Navigation - Glass Morphism -->
+    <nav class="cyber-nav">
+        <div class="nav-brand">
+            <div class="hologram">
+                <span class="neon-text">&lt; Nam_BlackHat &gt;</span>
+                <span class="version">2026 MAR 28</span>
+            </div>
+        </div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link" data-text="HOME">[ HOME ]</a>
+            <a href="#tools" class="nav-link" data-text="TOOLS">[ TOOLS ]</a>
+            <a href="#features" class="nav-link" data-text="FEATURES">[ FEATURES ]</a>
+            <a href="#download" class="nav-link" data-text="DOWNLOAD">[ DOWNLOAD ]</a>
+            <a href="#terminal" class="nav-link" data-text="TERMINAL">[ TERMINAL ]</a>
+        </div>
+        <div class="nav-status">
+            <span class="status-indicator"></span>
+            <span class="status-text">SYSTEM_ONLINE</span>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        
+        <!-- Hero Section - Cyberpunk Style -->
+        <section id="home" class="hero-section">
+            <div class="cyber-tag">ULTIMATE EXPLOIT SUITE</div>
+            
+            <div class="hero-content">
+                <div class="holographic-card">
+                    <div class="holographic-overlay"></div>
+                    <h1 class="cyber-glitch" data-text="NAM BLACK HAT">NAM BLACK HAT</h1>
+                    
+                    <div class="hero-stats-3d">
+                        <div class="stat-3d">
+                            <div class="stat-value neon-pulse">112</div>
+                            <div class="stat-label">NUMBER OF FILES</div>
+                        </div>
+                        <div class="stat-3d">
+                            <div class="stat-value neon-pulse">247</div>
+                            <div class="stat-label">EXPLOITS</div>
+                        </div>
+                        <div class="stat-3d">
+                            <div class="stat-value neon-pulse">99999</div>
+                            <div class="stat-label">UPTIME</div>
+                        </div>
+                        <div class="stat-3d">
+                            <div class="stat-value neon-pulse">100%</div>
+                            <div class="stat-label">ANTI_BAN</div>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta">
+                        <button class="cyber-button" onclick="redirectToTool('exploit')">
+                            <span class="button-content">⟫⟫ DOWNLOAD EXPLOITS ⟪⟪</span>
+                            <span class="button-glitch"></span>
+                        </button>
+                        <button class="cyber-button" onclick="redirectToTool('exploit')">
+                            <span class="button-content">⟫⟫ DISCOVER OUR SCRIPTS ⟪⟪</span>
+                            <span class="button-glitch"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3D Rotating Cube -->
+            <div class="cube-container">
+                <div class="cube">
+                    <div class="face front">RBLX</div>
+                    <div class="face back">HACK</div>
+                    <div class="face right">EXE</div>
+                    <div class="face left">BYPASS</div>
+                    <div class="face top">VIP</div>
+                    <div class="face bottom">PRO</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section - Premium Cards -->
+        <section id="tools" class="tools-section">
+            <div class="section-header">
+                <span class="section-tag">
+                [ OUR SCRIPTS ]
+                Update on SAT, FEB 14 2026
+                </span>
+                <h2 class="section-title-gradient">⟁ OUR APPS ⟁</h2>                <div class="section-divider"></div>
+            </div>
+
+            <div class="tools-grid-advanced">
+                <!-- FREE FIRE -->
+                <div class="tool-card-premium ultra-rare" data-tool="bypass">
+                    <div class="card-glow"></div>
+                    
+                    <!-- Ultra Rare Badge - Rainbow Effect -->
+                    <div class="ultra-rare-badge">
+                        <span class="badge-icon">⟁</span>
+                        <span class="badge-text">ULTRA RARE</span>
+                        <span class="badge-sparkle">†</span>
+                        <div class="badge-rainbow-border"></div>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="tool-icon-3d ultra-icon">
+                            <span class="icon-glow">🪄</span>
+                            <div class="icon-rainbow-ring"></div>
+                            <div class="icon-particles">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="tool-title">
+                            <h3 class="ultra-title">FREE FIRE</h3>
+                            <div class="tool-badges">
+                                <span class="badge-ultra-rare">FREE FIRE</span>
+                                <span class="badge-version">V2.0</span>
+                                <span class="badge-exclusive">iOS DEVICES</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="tool-specs ultra-specs">
+                            <div class="spec">
+                                CREATOR
+                                <span class="spec-value success-glow">Pham Hoang Nam & Developers Team</span>
+                            </div>
+                            <div class="spec">
+                                VERSION
+                                <span class="spec-value success-glow">20+</span>
+                            </div>
+                            <div class="spec">
+                                DETECTION
+                                <span class="spec-value rainbow-text">IMPOSSIBLE ~1%</span>
+                            </div>
+                            <div class="spec">
+                                SUPPORT
+                                <span class="spec-value success-glow">RANKED / SOLO / ROOM / CRAFT LAND</span>
+                            </div>
+                            <div class="spec">
+                                REQUIRES
+                                <span class="spec-value success-glow">ESign / TrollStore / iMazing</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-progress ultra-progress">
+                            <div class="progress-label">
+                                <span class="label-icon">⟁</span>
+                                <span class="label-text">>_ STABILITY_RATING</span>
+                                <span class="progress-value rainbow-value">∞</span>
+                            </div>
+                            <div class="progress-bar ultra-bar">
+                                <div class="progress-fill ultra-fill" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ultra Features - 7 màu tags -->
+                        <div class="tool-features-short ultra-features">
+                            <span class="feature-tag ultra-tag" data-color="1">ANTI BAND</span>
+                            <span class="feature-tag ultra-tag" data-color="2">ANTI BLACKLIST</span>
+                            <span class="feature-tag ultra-tag" data-color="3">BYPASS</span>
+                        </div>
+                        
+                        <!-- Ultra Stats -->
+                        <div class="ultra-stats">
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">-45%</span>
+                                <span class="ultra-stat-label">SPECIAL PRICE</span>
+                            </div>
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">#1</span>
+                                <span class="ultra-stat-label">RANKING</span>
+                            </div>
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">Daily</span>
+                                <span class="ultra-stat-label">UPDATE SUPPORT</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer ultra-footer">
+                        <button class="download-btn-glow ultra-btn" onclick="redirectToTool('bypass')">
+                            <span class="btn-text">⟫ BUY ⟪</span>
+                            <span class="btn-overlay"></span>
+                        </button>
+                        <div class="price-section ultra-price">
+                            <span class="tool-price ultra-price-value">120.000</span>
+                            <span class="price-note">VND</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NAM AIMBOT PANEL V3.1 -->
+                <div class="tool-card-premium ultra-rare" data-tool="bypass">
+                    <div class="card-glow"></div>
+                    
+                    <!-- Ultra Rare Badge - Rainbow Effect -->
+                    <div class="ultra-rare-badge">
+                        <span class="badge-icon">⟁</span>
+                        <span class="badge-text">ULTRA RARE</span>
+                        <span class="badge-sparkle">†</span>
+                        <div class="badge-rainbow-border"></div>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="tool-icon-3d ultra-icon">
+                            <span class="icon-glow">🔫</span>
+                            <div class="icon-rainbow-ring"></div>
+                            <div class="icon-particles">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="tool-title">
+                            <h3 class="ultra-title">NAM AIMBOT PANEL V3.1</h3>
+                            <div class="tool-badges">
+                                <span class="badge-ultra-rare">ROBLOX</span>
+                                <span class="badge-version">V3.1</span>
+                                <span class="badge-exclusive">ROBLOX</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="tool-specs ultra-specs">
+                            <div class="spec">
+                                CREATOR
+                                <span class="spec-value success-glow">Pham Hoang Nam & Developers Team</span>
+                            </div>
+                            <div class="spec">
+                                VERSION
+                                <span class="spec-value success-glow">3.1</span>
+                            </div>
+                            <div class="spec">
+                                DETECTION
+                                <span class="spec-value rainbow-text">IMPOSSIBLE ~0.5%</span>
+                            </div>
+                            <div class="spec">
+                                SUPPORT
+                                <span class="spec-value success-glow">ALL GAMES</span>
+                            </div>
+                            <div class="spec">
+                                REQUIRES
+                                <span class="spec-value success-glow">ROBLOX / SCRIPTS EXECUTOR</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-progress ultra-progress">
+                            <div class="progress-label">
+                                <span class="label-icon">⟁</span>
+                                <span class="label-text">>_ STABILITY_RATING</span>
+                                <span class="progress-value rainbow-value">∞</span>
+                            </div>
+                            <div class="progress-bar ultra-bar">
+                                <div class="progress-fill ultra-fill" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ultra Features - 7 màu tags -->
+                        <div class="tool-features-short ultra-features">
+                            <span class="feature-tag ultra-tag" data-color="1">AIM LOCK</span>
+                            <span class="feature-tag ultra-tag" data-color="2">AUTO KILL</span>
+                            <span class="feature-tag ultra-tag" data-color="2">ESP V3</span>
+                        </div>
+                        
+                        <!-- Ultra Stats -->
+                        <div class="ultra-stats">
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">-15%</span>
+                                <span class="ultra-stat-label">SPECIAL PRICE</span>
+                            </div>
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">#1</span>
+                                <span class="ultra-stat-label">RANKING</span>
+                            </div>
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">Daily</span>
+                                <span class="ultra-stat-label">UPDATE SUPPORT</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer ultra-footer">
+                        <button class="download-btn-glow ultra-btn" onclick="redirectToTool('bypass')">
+                            <span class="btn-text">⟫ BUY ⟪</span>
+                            <span class="btn-overlay"></span>
+                        </button>
+                        <div class="price-section ultra-price">
+                            <span class="tool-price ultra-price-value">100.000</span>
+                            <span class="price-note">VND</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LQMB -->
+                <div class="tool-card-premium ultra-rare" data-tool="bypass">
+                    <div class="card-glow"></div>
+                    
+                    <!-- Ultra Rare Badge - Rainbow Effect -->
+                    <div class="ultra-rare-badge">
+                        <span class="badge-icon">⟁</span>
+                        <span class="badge-text">ULTRA RARE</span>
+                        <span class="badge-sparkle">†</span>
+                        <div class="badge-rainbow-border"></div>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="tool-icon-3d ultra-icon">
+                            <span class="icon-glow">💡</span>
+                            <div class="icon-rainbow-ring"></div>
+                            <div class="icon-particles">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="tool-title">
+                            <h3 class="ultra-title">ARENA OF VALOR</h3>
+                            <div class="tool-badges">
+                                <span class="badge-ultra-rare">AOV</span>
+                                <span class="badge-version">V1.2</span>
+                                <span class="badge-exclusive">iOS DEVICES</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="tool-specs ultra-specs">
+                            <div class="spec">
+                                CREATOR
+                                <span class="spec-value success-glow">Pham Hoang Nam & Developers Team</span>
+                            </div>
+                            <div class="spec">
+                                VERSION
+                                <span class="spec-value success-glow">2</span>
+                            </div>
+                            <div class="spec">
+                                DETECTION
+                                <span class="spec-value rainbow-text">VERY LOW ~2%</span>
+                            </div>
+                            <div class="spec">
+                                SUPPORT
+                                <span class="spec-value success-glow">RANKED / SOLO / ROOM</span>
+                            </div>
+                            <div class="spec">
+                                REQUIRES
+                                <span class="spec-value success-glow">ESign / TrollStore / iMazing</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-progress ultra-progress">
+                            <div class="progress-label">
+                                <span class="label-icon">⟁</span>
+                                <span class="label-text">>_ STABILITY_RATING</span>
+                                <span class="progress-value rainbow-value">∞</span>
+                            </div>
+                            <div class="progress-bar ultra-bar">
+                                <div class="progress-fill ultra-fill" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ultra Features - 7 màu tags -->
+                        <div class="tool-features-short ultra-features">
+                            <span class="feature-tag ultra-tag" data-color="1">HACK MAP</span>
+                            <span class="feature-tag ultra-tag" data-color="2">ANTI BAND</span>
+                            <span class="feature-tag ultra-tag" data-color="3">SAFE</span>
+                        </div>
+                        
+                        <!-- Ultra Stats -->
+                        <div class="ultra-stats">
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">-35%</span>
+                                <span class="ultra-stat-label">SPECIAL PRICE</span>
+                            </div>
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">#1</span>
+                                <span class="ultra-stat-label">RANKING</span>
+                            </div>
+                            <div class="ultra-stat">
+                                <span class="ultra-stat-value">Daily</span>
+                                <span class="ultra-stat-label">UPDATE SUPPORT</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer ultra-footer">
+                        <button class="download-btn-glow ultra-btn" onclick="redirectToTool('bypass')">
+                            <span class="btn-text">⟫ BUY ⟪</span>
+                            <span class="btn-overlay"></span>
+                        </button>
+                        <div class="price-section ultra-price">
+                            <span class="tool-price ultra-price-value">110.000</span>
+                            <span class="price-note">VND</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AIMBOT PANEL V3 -->
+                <div class="tool-card-premium premium-tier" data-tool="auto-farm">
+                    <div class="card-glow"></div>
+                    
+                    <!-- Premium Badge - Blue Neon Version -->
+                    <div class="premium-corner-badge">
+                        <span class="badge-icon">⟁</span>
+                        <span class="badge-text">PREMIUM</span>
+                        <span class="badge-glow"></span>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="tool-icon-3d">
+                            <span class="icon-glow">🎯</span>
+                            <div class="icon-pulse-ring"></div>
+                        </div>
+                        <div class="tool-title">
+                            <h3>NAM AIMBOT PANEL V3</h3>
+                            <div class="tool-badges">
+                                <span class="badge-premium">ROBLOX</span>
+                                <span class="badge-rare premium-trial">PREMIUM</span>
+                                <span class="badge-verified">✓ LATEST</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="tool-specs">
+                            <div class="spec">
+                                CREATOR <span class="spec-value">Pham Hoang Nam</span>
+                            </div>
+                            <div class="spec">
+                                VERSION <span class="spec-value highlight">3.0.0 STABLE</span>
+                            </div>
+                            <div class="spec">
+                                DETECTION <span class="spec-value success">VERY LOW ~2%</span>
+                            </div>
+                            <div class="spec">
+                                SUPPORT <span class="spec-value">ALL SHOOTING GAMES</span>
+                            </div>
+                            <div class="spec">
+                                REQUIRES <span class="spec-value success">ROBLOX / SCRIPTS EXECUTOR</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-progress premium-progress">
+                            <div class="progress-label">
+                                <span class="label-icon">⟁</span>
+                                <span class="label-text">>_ STABILITY_RATING</span>
+                                <span class="progress-value">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-features-short premium-features">
+                            <span class="feature-tag premium-tag">AIM LOCK+</span>
+                            <span class="feature-tag premium-tag">TELE KILL</span>
+                            <span class="feature-tag premium-tag">UNDETECTED</span>
+                        </div>
+                        
+                        <div class="tool-stats-mini">
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">-20%</span>
+                                <span class="mini-stat-label">Special Price</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">4.9</span>
+                                <span class="mini-stat-label">Rating</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">Weekly</span>
+                                <span class="mini-stat-label">Update support</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="download-btn-glow premium-btn" onclick="redirectToTool('auto-farm')">
+                            <span class="btn-text">⟫ BUY ⟪</span>
+                            <span class="btn-overlay"></span>
+                        </button>
+                        <div class="price-section">
+                            <span class="tool-price premium-price">26.000</span>
+                            <span class="price-note">VND</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FC MOBILE -->
+                <div class="tool-card-premium premium-tier" data-tool="auto-farm">
+                    <div class="card-glow"></div>
+                    
+                    <!-- Premium Badge - Blue Neon Version -->
+                    <div class="premium-corner-badge">
+                        <span class="badge-icon">⟁</span>
+                        <span class="badge-text">PREMIUM</span>
+                        <span class="badge-glow"></span>
+                    </div>
+                    
+                    <div class="card-header">
+                        <div class="tool-icon-3d">
+                            <span class="icon-glow">⚽</span>
+                            <div class="icon-pulse-ring"></div>
+                        </div>
+                        <div class="tool-title">
+                            <h3>FC MOBILE VN</h3>
+                            <div class="tool-badges">
+                                <span class="badge-premium">FC MOBILE</span>
+                                <span class="badge-rare premium-trial">PREMIUM</span>
+                                <span class="badge-verified">✓ LATEST</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="tool-specs">
+                            <div class="spec">
+                                CREATOR <span class="spec-value">Pham Hoang Nam</span>
+                            </div>
+                            <div class="spec">
+                                VERSION <span class="spec-value highlight">3.0.0 STABLE</span>
+                            </div>
+                            <div class="spec">
+                                DETECTION <span class="spec-value success">VERY LOW ~2%</span>
+                            </div>
+                            <div class="spec">
+                                SUPPORT <span class="spec-value">ALL SHOOTING GAMES</span>
+                            </div>
+                            <div class="spec">
+                                REQUIRES <span class="spec-value success">ROBLOX / SCRIPTS EXECUTOR</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-progress premium-progress">
+                            <div class="progress-label">
+                                <span class="label-icon">⟁</span>
+                                <span class="label-text">>_ STABILITY_RATING</span>
+                                <span class="progress-value">99%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 99%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-features-short premium-features">
+                            <span class="feature-tag premium-tag">LOW AI GK</span>
+                            <span class="feature-tag premium-tag">LOW AI ENEMY</span>
+                            <span class="feature-tag premium-tag">UNDETECTED</span>
+                        </div>
+                        
+                        <div class="tool-stats-mini">
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">-70%</span>
+                                <span class="mini-stat-label">Special Price</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">4.9</span>
+                                <span class="mini-stat-label">Rating</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">Monthly</span>
+                                <span class="mini-stat-label">Update support</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="download-btn-glow premium-btn" onclick="redirectToTool('auto-farm')">
+                            <span class="btn-text">⟫ BUY ⟪</span>
+                            <span class="btn-overlay"></span>
+                        </button>
+                        <div class="price-section">
+                            <span class="tool-price premium-price">20.000</span>
+                            <span class="price-note">VND</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AIMBOT PANEL V2 -->
+                <div class="tool-card-premium" data-tool="nam-aimbot-panel-v2">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="tool-icon-3d">
+                            <span class="icon-glow">🎯</span>
+                        </div>
+                        <div class="tool-title">
+                            <h3>NAM AIMBOT PANEL V2</h3>
+                            <div class="tool-badges">
+                                <span class="badge-premium">ROBLOX</span>
+                                <span class="badge-rare">FREE TRIAL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="tool-specs">
+                            <div class="spec">CREATOR <span class="spec-value">Pham Hoang Nam</span></div>
+                            <div class="spec">VERSION <span class="spec-value">2.5.0 (STABLE)</span></div>
+                            <div class="spec">DETECTION <span class="spec-value success">LOW ~8%</span></div>
+                            <div class="spec">SUPPORT <span class="spec-value">GAMES WITH AIMING SIGHTS</span></div>
+                            <div class="spec">REQUIRES <span class="spec-value success">ROBLOX / SCRIPTS EXECUTOR</span></div>
+                        </div>
+                        <div class="tool-progress">
+                            <div class="progress-label">>_ STABILITY_RATING <span class="spec-value success">97%</span></div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 97%"></div>
+                            </div>
+                        </div>
+                        <!-- Thêm phần giới thiệu ngắn gọn nhưng nhiều thông tin -->
+                        <div class="tool-features-short">
+                            <span class="feature-tag">⟁ AIM LOCK</span>
+                            <span class="feature-tag">⟁ UNDETECTED</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <button class="download-btn-glow" onclick="redirectToTool('auto-farm')">
+                            <span class="btn-text">⟫ GET ⟪</span>
+                            <span class="btn-overlay"></span>
+                        </button>
+                        <span class="tool-price">FREE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section - Holographic -->
+        <section id="features" class="features-section">
+            <div class="section-header">
+                <span class="section-tag">[SYSTEM_CAPABILITIES]</span>
+                <h2 class="section-title-gradient">⧉ QUANTUM FEATURES ⧉</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="features-hologrid">
+                <div class="hologram-card">
+                    <div class="hologram-icon">🛡️</div>
+                    <h4>ANTI_BAN_PROTECT</h4>
+                    <p>Advanced spoofing technology that bypasses all detection systems</p>
+                    <div class="hologram-stats">
+                        <span>nam demo</span>
+                        <div class="stat-wave"></div>
+                    </div>
+                </div>
+
+                <div class="hologram-card">
+                    <div class="hologram-icon">⚡</div>
+                    <h4>QUANTUM_INJECTION</h4>
+                    <p>Lightning fast injection with zero delay technology</p>
+                    <div class="hologram-stats">
+                        <span>nam demo</span>
+                        <div class="stat-wave"></div>
+                    </div>
+                </div>
+
+                <div class="hologram-card">
+                    <div class="hologram-icon">🔄</div>
+                    <h4>PROXY_ROTATOR</h4>
+                    <p>Automatic IP rotation with 10,000+ proxy network</p>
+                    <div class="hologram-stats">
+                        <span>nam demo</span>
+                        <div class="stat-wave"></div>
+                    </div>
+                </div>
+
+                <div class="hologram-card">
+                    <div class="hologram-icon">🧠</div>
+                    <h4>AI_ASSISTANT</h4>
+                    <p>Machine learning algorithms for undetectable gameplay</p>
+                    <div class="hologram-stats">
+                        <span>nam demo</span>
+                        <div class="stat-wave"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section - Main CTA -->
+        <section id="download" class="download-section">
+            <div class="cyber-portal">
+                <div class="portal-ring"></div>
+                <div class="portal-content">
+                    <h2 class="portal-title">⟁ ACCESS MAIN TERMINAL ⟁</h2>
+                    <div class="portal-description">
+                        <p>> Download the ultimate Roblox exploit suite with lifetime access</p>
+                        <p>> Includes all premium tools + future updates</p>
+                        <p>> 100% undetected guarantee</p>
+                    </div>
+                    
+                    <div class="download-buttons-3d">
+                        <button class="portal-button main" onclick="redirectToTool('ultimate-pack')">
+                            <span class="button-3d-text">⬇ DOWNLOAD ULTIMATE PACK ⬇</span>
+                            <span class="button-3d-shadow"></span>
+                        </button>
+                        
+                        <div class="mirror-links">
+                            <button class="mirror-btn" onclick="redirectToTool('mirror1')">[MIRROR_1]</button>
+                            <button class="mirror-btn" onclick="redirectToTool('mirror2')">[MIRROR_2]</button>
+                            <button class="mirror-btn" onclick="redirectToTool('mirror3')">[MIRROR_3]</button>
+                        </div>
+                    </div>
+                    
+                    <div class="download-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">154,892</span>
+                            <span class="stat-desc">TOTAL DOWNLOADS</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2,847</span>
+                            <span class="stat-desc">ONLINE NOW</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Terminal -->
+        <section id="terminal" class="terminal-advanced">
+            <div class="terminal-header">
+                <div class="terminal-controls">
+                    <span class="control red"></span>
+                    <span class="control yellow"></span>
+                    <span class="control green"></span>
+                </div>
+                <span class="terminal-path">root@exploit:/var/www/rblx_hack#</span>
+            </div>
+            <div class="terminal-body" id="advancedTerminal">
+                <div class="terminal-line">[2026] Initializing quantum exploit engine...</div>
+                <div class="terminal-line success">[2026] Byfron protection bypassed successfully</div>
+                <div class="terminal-line">[2026] Loading AI modules...</div>
+                <div class="terminal-line">[2026] System ready | Exploits: 247 | Users: 15.2K</div>
+            </div>
+            <div class="terminal-input-line">
+                <span class="terminal-prompt">root@exploit:~#</span>
+                <input type="text" class="terminal-input-field" placeholder="Enter command (help for list)" autocomplete="off">
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="credits" class="cyber-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h5 class="neon-text-small">[RBLX_EXPLOIT_VIP]</h5>
+                <p>> Advanced exploitation framework</p>
+                <p>> Server Version 2026 MAR 28 Build 3.0.24</p>
+            </div>
+            <div class="footer-section">
+                <h5>[LEGAL]</h5>
+                <p>> For educational purposes only</p>
+                <p>> 2026 © Pham Hoang Nam</p>
+            </div>
+            <div class="footer-section">
+                <h5>[CHANNELS]</h5>
+                <div class="social-links">
+                    <a href="#" onclick="redirectToTool('discord')">[DISCORD]</a>
+                    <a href="#" onclick="redirectToTool('telegram')">[TELEGRAM]</a>
+                    <a href="#" onclick="redirectToTool('github')">[GITHUB]</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
